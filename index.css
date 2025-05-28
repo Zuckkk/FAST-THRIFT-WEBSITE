@@ -1,0 +1,516 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+  header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      transition: top 0.4s ease;
+      z-index: 1000;
+    }
+
+    header.hidden {
+      top: -200px; /* Move the header above the viewport */
+    }
+
+    main {
+      margin-top: 80px;
+      padding: 20px;
+      height: 2000px; /* For scrolling effect */
+      background: linear-gradient(to bottom, #eee, #ccc);
+    }
+.top-bar {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.top-bar .logo {
+    color: white;
+    font-size: 20px; /* Reduce font size if needed */
+    font-weight: bold;
+    height: 120px; /* Reduce height (originally 170px) */
+    width: 140px; /* Reduce width (originally 190px) */
+}
+        
+.top-bar .icons {
+    position: absolute;
+    right: 20px; /* Pushes icons to the right */
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.top-bar .icons span {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.hero {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 400px;
+}
+.hero img {
+    padding-top: 25vh;
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.hero-text h2 {
+    padding-top: 200px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-left: 50px;
+    font-size: 90px;
+    line-height: 1.050; 
+    text-transform: uppercase;
+    letter-spacing: -10px;
+    word-spacing: -5px;
+    color: #000000;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: bolder;
+    margin-right: 60px;
+}
+.hero-text ul {
+    list-style: none;
+    padding-left: 90px;
+}
+.hero-text h1{
+    font-size: 25px;
+}
+
+.hero button {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 250px;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 90px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.brands h3 {
+    padding-top: 10%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-left: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -4.4px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.brands, .styles{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.divider {
+    padding-top: 100px;
+}
+.brand-logos img {
+    width: 150px;
+    height: 100px;
+    margin: 0px 10px;
+}
+.brand-logos img {
+  width: 100px; /* adjust size as needed */
+  height: auto;
+  margin: 10px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.styles{
+    padding: 23px;
+    height: 600px;
+    width: 80%;
+    background-color: #efeee9;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+}
+.styles h3 {
+    
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-left: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -4.4px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.style-options {
+    background-color: #efeee9;
+    padding: 10px 100;
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.style-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.style-options img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.style-options img:hover {
+  transform: scale(0.9); /* Zoom out on hover */
+}
+
+
+
+.products {
+    padding-top: 100;
+    padding: 23px;
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: #efeee9;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.product-card button { 
+    position: absolute;
+    bottom: 20px; /* Push button to bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.product-card {
+    background-color: #efeee9;
+    position: relative;
+    width: 450px;
+    height: 450px;
+ 
+    padding: 10px;
+
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.product-card p {
+    padding-top: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product-card img {
+    width: 250px;
+    height: auto;
+}
+
+.product-card img:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    transition: transform 2s ease; /* Smooth zoom effect */
+}
+
+
+.mens-womens-space {
+    position: relative; 
+    padding: 23px;
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px
+}
+
+.mens-card{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* Hide overflow so zoom doesn't go outside the container */
+    display: inline-block;
+}
+.mens-card img{
+    width: 500px;
+    height: 500px;
+    transition: transform 3s ease; /* Smooth zoom effect */
+}
+.mens-card:hover img{
+    transform: scale(1.2); /* Zoom in on hover */
+}
+.womens-card{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 10px   ;
+    text-align: center;
+    overflow: hidden; /* Hide overflow so zoom doesn't go outside the container */
+    display: inline-block;
+}
+.womens-card img{
+    width: 500px;
+    height: 500px;
+    transition: transform 3s ease; /* Smooth zoom effect */
+}
+.womens-card:hover img{
+    transform: scale(1.2); /* Zoom in on hover */
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -4.4px;
+    word-spacing: 0.8px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.button{
+    border: 1px solid #ffffff; /* Light border */
+    width: 200px;
+    background-color: #000000;
+    position: absolute;
+    color: #eee;
+    top: 90%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+   
+}
+
+.button h1:hover{
+    color: black;
+    background-color: white;
+}
+footer{
+background-color: black;
+color:white;
+
+}
+.space{
+    position: relative; 
+    padding: 23px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px
+
+}
+.space p{
+    font-family: "Arial", Gadget, sans-serif;
+}
+.space h3{
+    padding-left: 80px;
+}
+footer h1{
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+footer p{
+    text-align: center;
+    font-family: "Arial", Gadget, sans-serif;
+}
+footer h2{
+    text-align: center;
+    font-style: italic;
+}
+footer a{
+    text-align:center;
+    color: rgb(0, 0, 255);
+}
+.socmed-logos img{
+    padding-top: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+
+
+}
+
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+/* Close button */
+.modal-content .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal heading */
+.modal-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Register link */
+.modal-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.modal-content p a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content p a:hover {
+    color: #555;
+}
+
+/* Form styles */
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-content form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modal-content form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.modal-content form input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+/* Login button */
+.modal-content .login-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffde59;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-content .login-button:hover {
+    background-color: #ffd633;
+}
+/* Registration button */
+.modal-content .register-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffde59;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-content .register-button:hover {
+    background-color: #ffd633;
+}

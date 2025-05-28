@@ -1,0 +1,599 @@
+RAW POST: {"cart":[{"id":"puma-track-jacket","title":"Puma Track Jacket - 2XL Blue Polyester","price":"₱2,700.00","image":"PRODUCTS/PumaTrackJacket1.jpg","quantity":2}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"lot 2 blk 2 san andres cainta rizal"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => puma-track-jacket
+            [title] => Puma Track Jacket - 2XL Blue Polyester
+            [price] => ₱2,700.00
+            [image] => PRODUCTS/PumaTrackJacket1.jpg
+            [quantity] => 2
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => lot 2 blk 2 san andres cainta rizal
+)
+
+RAW POST: {"cart":[{"id":"versace-blazer","title":"Versace Classic Blazer - Large Brown Wool Blend","price":"₱9,600.00","image":"PRODUCTS/VersaceClassicBlazer1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => versace-blazer
+            [title] => Versace Classic Blazer - Large Brown Wool Blend
+            [price] => ₱9,600.00
+            [image] => PRODUCTS/VersaceClassicBlazer1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":0,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"lot 2 blk 2 san andres cainta rizal"},"discount":20,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => lot 2 blk 2 san andres cainta rizal
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"lot 2 blk 2 san andres cainta rizal"},"discount":20,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => lot 2 blk 2 san andres cainta rizal
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"lot 2 blk 2 san andres cainta rizal"},"discount":20,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => lot 2 blk 2 san andres cainta rizal
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":0,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":0,"freeShipping":false,"promoId":null}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"z@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":0,"freeShipping":false,"promoId":null}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => z@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach1@gmail.com","first_name":"z","last_name":"f","address":"lot 2 blk 2 san andres cainta rizal"},"discount":0,"freeShipping":false,"promoId":null}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach1@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => lot 2 blk 2 san andres cainta rizal
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach1@gmail.com","first_name":"z","last_name":"f","address":"123"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach1@gmail.com
+    [first_name] => z
+    [last_name] => f
+    [address] => 123
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1},{"id":"levis-denim-shorts","title":"311 Levis Denim Shorts - 31W UK 12 Blue Cotton","price":"₱900.00","image":"PRODUCTS/311LevisDenimShorts1.jpg","quantity":1}],"user":{"email":"zach2@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":0,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+    [1] => Array
+        (
+            [id] => levis-denim-shorts
+            [title] => 311 Levis Denim Shorts - 31W UK 12 Blue Cotton
+            [price] => ₱900.00
+            [image] => PRODUCTS/311LevisDenimShorts1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach2@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"riley-true-religion","title":"Riley True Religion Denim Shorts - 28W UK 8 Blue Cotton","price":"₱2,700.00","image":"PRODUCTS/RileyTrueReligionDenim.jpg","quantity":1},{"id":"puma-track-jacket","title":"Puma Track Jacket - 2XL Blue Polyester","price":"₱2,700.00","image":"PRODUCTS/PumaTrackJacket1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => riley-true-religion
+            [title] => Riley True Religion Denim Shorts - 28W UK 8 Blue Cotton
+            [price] => ₱2,700.00
+            [image] => PRODUCTS/RileyTrueReligionDenim.jpg
+            [quantity] => 1
+        )
+
+    [1] => Array
+        (
+            [id] => puma-track-jacket
+            [title] => Puma Track Jacket - 2XL Blue Polyester
+            [price] => ₱2,700.00
+            [image] => PRODUCTS/PumaTrackJacket1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"joey-big-t-denim-shorts","title":"Made in USA Joey Big T True Religion Denim Shorts - 32W UK 10 Blue Cotton","price":"₱2,700.00","image":"PRODUCTS/MadeinUSAJoeyBig1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => joey-big-t-denim-shorts
+            [title] => Made in USA Joey Big T True Religion Denim Shorts - 32W UK 10 Blue Cotton
+            [price] => ₱2,700.00
+            [image] => PRODUCTS/MadeinUSAJoeyBig1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"nike-sweatshirt-white","title":"Nike Sweatshirt - 2XL White Cotton Blend","price":"₱3,700.00","image":"PRODUCTS/nikesweat1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => nike-sweatshirt-white
+            [title] => Nike Sweatshirt - 2XL White Cotton Blend
+            [price] => ₱3,700.00
+            [image] => PRODUCTS/nikesweat1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"true-religion-shorts","title":"True Religion Contrast Stitch Shorts - 34W 13L Acid Wash Cotton","price":"₱3,500.00","image":"PRODUCTS/TrueReligionContrast1.jpg","quantity":1},{"id":"supreme-graphic-hoodie","title":"Supreme Graphic Hoodie - XL Black Cotton","price":"₱33,100.00","image":"PRODUCTS/supreme.png","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => true-religion-shorts
+            [title] => True Religion Contrast Stitch Shorts - 34W 13L Acid Wash Cotton
+            [price] => ₱3,500.00
+            [image] => PRODUCTS/TrueReligionContrast1.jpg
+            [quantity] => 1
+        )
+
+    [1] => Array
+        (
+            [id] => supreme-graphic-hoodie
+            [title] => Supreme Graphic Hoodie - XL Black Cotton
+            [price] => ₱33,100.00
+            [image] => PRODUCTS/supreme.png
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"versace-blazer","title":"Versace Classic Blazer - Large Brown Wool Blend","price":"₱9,600.00","image":"PRODUCTS/VersaceClassicBlazer1.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => versace-blazer
+            [title] => Versace Classic Blazer - Large Brown Wool Blend
+            [price] => ₱9,600.00
+            [image] => PRODUCTS/VersaceClassicBlazer1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"supreme-2018-hoodie","title":"Supreme 2018 Supreme Hoodie - Medium Red Cotton","price":"₱10,700.00","image":"PRODUCTS/Supreme2018Supreme.jpg","quantity":1}],"user":{"email":"zach@gmail.com","first_name":"zachary","last_name":"fuertes","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => supreme-2018-hoodie
+            [title] => Supreme 2018 Supreme Hoodie - Medium Red Cotton
+            [price] => ₱10,700.00
+            [image] => PRODUCTS/Supreme2018Supreme.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach@gmail.com
+    [first_name] => zachary
+    [last_name] => fuertes
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
+RAW POST: {"cart":[{"id":"washington-nike-windbreaker","title":"Washington Nike Windbreaker","price":"₱1,070.00","image":"PRODUCTS/washington1.jpg","quantity":1}],"user":{"email":"zach21@gmail.com","first_name":"zach","last_name":"fuert","address":"231"},"discount":10,"freeShipping":false}
+PARSED cart: Array
+(
+    [0] => Array
+        (
+            [id] => washington-nike-windbreaker
+            [title] => Washington Nike Windbreaker
+            [price] => ₱1,070.00
+            [image] => PRODUCTS/washington1.jpg
+            [quantity] => 1
+        )
+
+)
+
+PARSED user: Array
+(
+    [email] => zach21@gmail.com
+    [first_name] => zach
+    [last_name] => fuert
+    [address] => 231
+)
+
